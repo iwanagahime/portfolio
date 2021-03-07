@@ -15,6 +15,15 @@ html {
   background-color: mediumseagreen;
   padding: 1rem;
 }
+.header {
+  background-color: slategrey;
+}
+.about {
+  background-color: yellowgreen;
+}
+.projects {
+  background-color: moccasin;
+}
 
 /* Tablet */
 @media screen and (max-width: 768px) {
@@ -22,7 +31,7 @@ html {
     flex-direction: column;
   }
 }
-
+TODO
 /* Mobile */
 /* @media screen and (max-width:TODO) { 
   .container {
