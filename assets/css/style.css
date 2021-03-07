@@ -2,3 +2,20 @@ html {
   /* Modifying the root font size */
   font-size: 10px;
 }
+.container {
+  background-color: indianred;
+  height: 100vh;
+  /* display: flex; */TODO
+}
+.navbar {
+  background-color: lightskyblue;
+}
+.content {
+  background-color: mediumseagreen;
+}
+
+/* @media screen and (max-width:768px) { */
+
+
+/* @media screen and (max-width:TODO) { */
+  
