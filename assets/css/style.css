@@ -5,7 +5,7 @@ html {
 .container {
   background-color: indianred;
   height: 100vh;
-  /* display: flex; */TODO
+  display: flex;
 }
 .navbar {
   background-color: lightskyblue;
@@ -15,13 +15,13 @@ html {
   background-color: mediumseagreen;
   padding: 1rem;
 }
-TODO
+
 /* Tablet */
-/* @media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .container {
-    flex-direction:column;
-   }
-   } */
+    flex-direction: column;
+  }
+}
 
 /* Mobile */
 /* @media screen and (max-width:TODO) { 
