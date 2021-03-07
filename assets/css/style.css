@@ -9,9 +9,11 @@ html {
 }
 .navbar {
   background-color: lightskyblue;
+  padding: 2rem;
 }
 .content {
   background-color: mediumseagreen;
+  padding: 1rem;
 }
 TODO
 /* Tablet */
