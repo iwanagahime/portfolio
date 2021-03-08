@@ -34,29 +34,39 @@ html {
 }
 
  .card {
-  background-color: orchid;
+  background-color:orchid;
   margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  
 }
 .card-image-container {
   background-color: deepskyblue;
+  height: 20rem;
+  margin-bottom: 1rem;
 
 }
 /* Image not loading  */
-/* .card-image { 
-  height:100%
-  max-width:100%
-}*/ TODO
+.card-image { 
+  height:100%;
+  max-width:100%;
+}
 
-.card-title{
+.card-title {
   background-color: olive;
+  margin-bottom: 1rem;
+  padding: 1rem;
 
 }
 .card-subtitle{
   background-color: rebeccapurple;
+  margin-bottom: 1rem;
+  padding: 1rem;
 
 }
 .card-info{
   background-color: thistle;
+  padding: 1rem;
 
 }
 
