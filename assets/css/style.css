@@ -3,27 +3,65 @@ html {
   font-size: 10px;
 }
 .container {
-  background-color: indianred;
   height: 100vh;
   display: flex;
 }
 .navbar {
-  background-color: lightskyblue;
   padding: 2rem;
 }
-.content {
-  background-color: mediumseagreen;
+.content {;
   padding: 1rem;
+  flex-grow: 1;
 }
 .header {
-  background-color: slategrey;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 .about {
   background-color: yellowgreen;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 .projects {
   background-color: moccasin;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
+.cards-container {
+  display: flex;
+  background-color: darkorange;
+  flex-wrap: wrap;
+}
+
+ .card {
+  background-color: orchid;
+  margin: 1rem;
+}
+.card-image-container {
+  background-color: deepskyblue;
+
+}
+/* Image not loading  */
+/* .card-image { 
+  height:100%
+  max-width:100%
+}*/ TODO
+
+.card-title{
+  background-color: olive;
+
+}
+.card-subtitle{
+  background-color: rebeccapurple;
+
+}
+.card-info{
+  background-color: thistle;
+
+}
+
+
+
 
 /* Tablet */
 @media screen and (max-width: 768px) {
