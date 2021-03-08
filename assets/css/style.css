@@ -1,6 +1,8 @@
 html {
   /* Modifying the root font size */
   font-size: 10px;
+  background: url() no-repeat center fixed;
+  background-size: cover;
 }
 body {
   display: block;
@@ -37,6 +39,11 @@ body {
   width: 30rem;
   margin-bottom: 1rem;
   padding: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
   /* box to the centre of the page */
 }
 .about-me-image {
@@ -55,17 +62,28 @@ body {
   background-color: powderblue;
   margin-bottom: 1rem;
   padding: 1rem;
-  display: flex;
-  flex-wrap: wrap;
 }
 .contact-me-content-container {
   background-color: violet;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contact-me-title {
+  background-color: chartreuse;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .contact-me-content {
   background-color: tomato;
   margin-bottom: 1rem;
   padding: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 .projects {
   background-color: moccasin;
@@ -83,6 +101,8 @@ body {
   margin: 1rem;
   padding: 1rem;
   border-radius: 0.5rem;
+  display: block;
+  margin-bottom: 60px;
 }
 .card-image-container {
   background-color: deepskyblue;
@@ -127,7 +147,7 @@ TODO
    }
   } */
 @media screen and (max-width:786px) {
-  .contact-me {
+  .contact-me-content-container {
     flex-direction: column;
   }
 }
