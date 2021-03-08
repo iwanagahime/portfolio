@@ -43,13 +43,16 @@ html {
 .card-image-container {
   background-color: deepskyblue;
   height: 20rem;
+  width: 20rem;
   margin-bottom: 1rem;
+  justify-content: space-evenly;
 
 }
 /* Image not loading  */
 .card-image { 
   height:100%;
-  max-width:100%;
+  width:100%;
+  object-fit: cover;
 }
 
 .card-title {
