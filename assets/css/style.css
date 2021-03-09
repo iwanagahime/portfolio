@@ -1,10 +1,19 @@
 html {
   /* Modifying the root font size */
   font-size: 10px;
-  background: url() no-repeat center fixed;
+}
+
+.hero {
+  background-image: linear-gradient(to right,
+  rgba(0, 0, 0, 0.005), rgba(0, 0, 0, 0.355) ), url (assets\images\images\hero.jpg);
+  height: 100vh;
+  background-repeat:no-repeat:
+  background-position: center;
   background-size: cover;
 }
+
 body {
+  margin: 0px;
   display: block;
   font-family: Georgia, serif;
   font-size: 20px;
