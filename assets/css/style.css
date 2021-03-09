@@ -4,10 +4,14 @@ html {
 }
 
 .hero {
-  background-image: linear-gradient(to right,
-  rgba(0, 0, 0, 0.005), rgba(0, 0, 0, 0.355) ), url (assets\images\images\hero.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 0, 0, 0.05),
+      rgb(0, 0, 0, 0.5)
+    ),
+    url("../images/images/hero.jpg");
   height: 100vh;
-  background-repeat:no-repeat:
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -148,14 +152,14 @@ body {
     flex-direction: column;
   }
 }
-TODO
+
 /* Mobile */
 /* @media screen and (max-width:TODO) { 
   .container {
     flex-direction:column;
    }
   } */
-@media screen and (max-width:786px) {
+@media screen and (max-width: 786px) {
   .contact-me-content-container {
     flex-direction: column;
   }
