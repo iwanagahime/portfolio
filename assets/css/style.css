@@ -44,13 +44,13 @@ body {
   display: block;
 }
 /* TODO separator image credits */
-.separator {
+/* .separator {
   content: url("../images/images/separator.png");
   width: 100%;
   padding: 0;
   margin: 0;
-  display: block;
-}
+  display: block; */
+
 .text {
   font-size: 30px;
   text-align: center;
@@ -87,6 +87,8 @@ body {
   background-color: deeppink;
   margin-bottom: 1rem;
   padding: 1rem;
+  text-align: center;
+  font-size: 30px;
 }
 .about-me-info {
   background-color: blue;
