@@ -37,7 +37,29 @@ body {
 .header {
   padding: 1rem;
   margin-bottom: 1rem;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px whitesmoke;
+  height: 200px;
+  display: block;
 }
+/* TODO separator image credits */
+.separator {
+  content: url("../images/images/separator.png");
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.text {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: overline;
+  text-shadow: 2px 2px whitesmoke;
+  height: 100px;
+  display: block;
+}
+
 .about-me {
   background-color: yellowgreen;
   padding: 1rem;
