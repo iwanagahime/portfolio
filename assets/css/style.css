@@ -10,7 +10,6 @@ html {
       rgb(0, 0, 0, 0.5)
     ),
     url("../images/images/hero.jpg");
-  /* height:100vh */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -24,7 +23,6 @@ body {
   line-height: 1.6;
 }
 .container {
-  /* height: 100vh; */
   display: flex;
 }
 .navbar {
@@ -148,26 +146,29 @@ body {
 .card {
   background-color: orchid;
   margin: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 2rem;
-  justify-content: center;
 }
+
 .card-image:first-child {
-  width: 80vw;
 }
 
 .card:first-child {
-  width: 80vw;
+  width: 80vh;
+}
+.card-image-container:first-child {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-image-container {
   background-color: deepskyblue;
-  padding: 1rem;
+  padding: 0.5rem;
   margin: 1rem;
   height: 20rem;
   width: 20rem;
   margin-bottom: 1rem;
-  justify-content: center;
+  /* text-align: center; */
 }
 
 .card-image {
@@ -175,7 +176,7 @@ body {
   max-width: 100%;
   object-fit: contain;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.5rem;
   opacity: 1;
 }
 
