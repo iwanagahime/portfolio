@@ -82,8 +82,6 @@ body {
   margin-right: auto;
   width: 50%;
   text-align: center;
-
-  /* TODO image needs to be centered */
 }
 .about-me-image {
   text-align: center;
@@ -150,24 +148,33 @@ body {
   margin: 1rem;
   padding: 1rem;
   border-radius: 2rem;
+  justify-content: center;
 }
+.card-image:first-child {
+  width: 80vw;
+}
+
 .card:first-child {
-  width: 80%;
+  width: 80vw;
 }
-/* TODO background image doesn't fit the card width */
+
 .card-image-container {
   background-color: deepskyblue;
+  padding: 1rem;
+  margin: 1rem;
   height: 20rem;
   width: 20rem;
   margin-bottom: 1rem;
+  justify-content: center;
 }
-
-/* Image doesn't fit */
 
 .card-image {
   height: 100%;
   max-width: 100%;
   object-fit: contain;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 1;
 }
 
 .card-title {
@@ -192,13 +199,19 @@ body {
   }
 }
 
-/* Mobile */
-/* @media screen and (max-width:TODO) { 
+@media screen and (max-width: 576px) {
   .container {
-    flex-direction:column;
-   }
-  } */
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 786px) {
+  .contact-me-content-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
   .contact-me-content-container {
     flex-direction: column;
   }
