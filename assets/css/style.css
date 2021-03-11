@@ -73,7 +73,6 @@ body {
   background-color: peru;
 }
 .about-me-image-container {
-  background-color: yellow;
   height: 30rem;
   width: 30rem;
   margin-bottom: 1rem;
@@ -143,17 +142,14 @@ body {
   display: flex;
   background-color: darkorange;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .card {
   background-color: orchid;
-
   margin: 1rem;
   padding: 1rem;
-  border-radius: 0.5rem;
-  display: block;
-  margin-bottom: 60px;
-  width: 40%;
+  border-radius: 2rem;
 }
 .card:first-child {
   width: 80%;
@@ -164,14 +160,13 @@ body {
   height: 20rem;
   width: 20rem;
   margin-bottom: 1rem;
-  justify-content: space-evenly;
 }
 
 /* Image doesn't fit */
 
 .card-image {
+  height: 100%;
   max-width: 100%;
-  max-height: 100%;
   object-fit: contain;
 }
 
