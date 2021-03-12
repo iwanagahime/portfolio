@@ -27,7 +27,7 @@ body {
 }
 .navbar {
   padding: 2rem;
-  margin-top: 35rem;
+  margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
   font-size: 30px;
@@ -241,26 +241,106 @@ a:active {
 }
 
 /* Tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 925px) {
   .container {
     flex-direction: column;
   }
-}
-
-@media screen and (max-width: 576px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 786px) {
   .contact-me-content-container {
     flex-direction: column;
   }
 }
-
+/* Mobile phones */
 @media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+
   .contact-me-content-container {
     flex-direction: column;
+  }
+
+  .title {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 5px 5px goldenrod;
+    height: 100px;
+    display: block;
+  }
+  .subTitle {
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: overline;
+    height: 50px;
+    display: block;
+  }
+  .about-me-image-container {
+    height: 20rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+  }
+  .about-me-image {
+    text-align: center;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px goldenrod;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    flex-direction: column;
+  }
+  .navbar {
+    padding: 0.5rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-family: cursive;
+  }
+  .title {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 5px 5px goldenrod;
+    height: 50px;
+    display: block;
+  }
+  .subTitle {
+    font-size: 15px;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: overline;
+    height: 25px;
+    display: block;
+  }
+  .about-me-image-container {
+    height: 10rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+  }
+  .about-me-image {
+    text-align: center;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px goldenrod;
   }
 }
