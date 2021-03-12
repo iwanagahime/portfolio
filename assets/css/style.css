@@ -53,7 +53,7 @@ body {
   font-size: 70px;
   font-family: cursive;
   text-align: center;
-  text-shadow: 2px 2px whitesmoke;
+  text-shadow: 5px 5px goldenrod;
   height: 200px;
   display: block;
 }
@@ -68,7 +68,6 @@ body {
   font-family: cursive;
   text-align: center;
   text-decoration: overline;
-  text-shadow: 2px 2px whitesmoke;
   height: 100px;
   display: block;
 }
@@ -100,7 +99,7 @@ body {
   text-align: center;
   height: 100%;
   border-radius: 100%;
-  box-shadow: 10px 10px 10px whitesmoke;
+  box-shadow: 10px 10px 10px goldenrod;
 }
 .about-me-heading {
   background-color: deeppink;
@@ -169,6 +168,12 @@ a:hover {
 a:active {
   color: green;
 }
+
+.icon {
+  font-size: 4rem;
+  color: navy;
+}
+
 .projects {
   background-color: moccasin;
   padding: 1rem;
