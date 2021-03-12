@@ -5,7 +5,7 @@ html {
 
 .hero {
   background-image: linear-gradient(
-      to right,
+      to left,
       rgb(0, 0, 0, 0.05),
       rgb(0, 0, 0, 0.5)
     ),
@@ -26,8 +26,6 @@ body {
   display: flex;
 }
 .navbar {
-  /* list-style-type: none;
-  display: inline-block; */
   padding: 2rem;
   margin-top: 35rem;
   margin-left: auto;
@@ -43,6 +41,7 @@ body {
 .navbar ul li a {
   text-decoration: none;
   color: black;
+  text-shadow: 5px 5px 5px goldenrod;
 }
 .content {
   padding: 1rem;
@@ -51,7 +50,7 @@ body {
 .title {
   padding: 1rem;
   margin-bottom: 1rem;
-  font-size: 60px;
+  font-size: 70px;
   font-family: cursive;
   text-align: center;
   text-shadow: 2px 2px whitesmoke;
@@ -65,7 +64,7 @@ body {
   margin: 0; */
 
 .subTitle {
-  font-size: 40px;
+  font-size: 50px;
   font-family: cursive;
   text-align: center;
   text-decoration: overline;
@@ -108,7 +107,7 @@ body {
   margin-bottom: 1rem;
   padding: 1rem;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-family: cursive;
 }
 .about-me-info {
@@ -134,7 +133,7 @@ body {
   margin-bottom: 1rem;
   padding: 1rem;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .contact-me-content {
@@ -145,6 +144,30 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  font-size: 30px;
+}
+.contact-me-content a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: green;
 }
 .projects {
   background-color: moccasin;
