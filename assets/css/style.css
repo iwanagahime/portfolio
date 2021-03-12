@@ -29,8 +29,20 @@ body {
   /* list-style-type: none;
   display: inline-block; */
   padding: 2rem;
+  margin-top: 35rem;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 30px;
   font-family: cursive;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
 }
 .content {
   padding: 1rem;
@@ -48,11 +60,9 @@ body {
 }
 /* TODO separator image credits */
 /* .separator {
-  content: url("../images/images/separator.png");
-  width: 100%;
+  content: url("../images/images/separator-screenshot.PNG")
   padding: 0;
-  margin: 0;
-  display: block; */
+  margin: 0; */
 
 .subTitle {
   font-size: 40px;
@@ -71,6 +81,8 @@ body {
 }
 .about-me-content {
   background-color: peru;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 .about-me-image-container {
   height: 30rem;
@@ -82,6 +94,8 @@ body {
   margin-right: auto;
   width: 50%;
   text-align: center;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 .about-me-image {
   text-align: center;
@@ -113,6 +127,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  text-align: center;
 }
 .contact-me-title {
   background-color: chartreuse;
@@ -150,8 +165,8 @@ body {
   border-radius: 2rem;
 }
 
-.card-image:first-child {
-}
+/* .card-image:first-child {
+} */
 
 .card:first-child {
   width: 80vh;
@@ -168,7 +183,6 @@ body {
   height: 20rem;
   width: 20rem;
   margin-bottom: 1rem;
-  /* text-align: center; */
 }
 
 .card-image {
@@ -184,15 +198,18 @@ body {
   background-color: olive;
   margin-bottom: 1rem;
   padding: 1rem;
+  text-align: center;
 }
 .card-subtitle {
   background-color: rebeccapurple;
   margin-bottom: 1rem;
   padding: 1rem;
+  text-align: center;
 }
 .card-info {
   background-color: thistle;
   padding: 1rem;
+  text-align: center;
 }
 
 /* Tablet */
