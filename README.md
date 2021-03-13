@@ -30,6 +30,14 @@ code .
 
 ## Screenshots
 
-![Deployed webpage PC viewport]()
-![Deployed webpage PC viewport]()
-![Deployed webpage PC viewport]()
+### PC viewport
+
+![Deployed webpage PC viewport](/assets/images/screenshots/pc-viewport.png)
+
+### Tablet viewport
+
+![Deployed webpage tablet viewport](/assets/images/screenshots/tablet-viewport.png)
+
+### Mobile Phone viewport
+
+![Deployed webpage mobile phone viewport](/assets/images/screenshots/mobile-phone-viewport.png)
