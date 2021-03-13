@@ -212,23 +212,21 @@ a:active {
 
 /* Project section with links to projects */
 .projects {
-  background-color: moccasin;
   padding: 1rem;
   margin-bottom: 1rem;
   font-size: 40px;
   font-family: cursive;
+  font-weight: bold;
   text-align: center;
 }
 
 .cards-container {
   display: flex;
-  background-color: darkorange;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .card {
-  background-color: cadetblue;
   margin: 1rem;
   padding: 0.5rem;
   border-radius: 2rem;
@@ -244,7 +242,6 @@ a:active {
 }
 
 .card-image-container {
-  background-color: deepskyblue;
   padding: 0.5rem;
   margin: 1rem;
   height: 20rem;
@@ -271,28 +268,31 @@ a:active {
 }
 
 .card-title {
-  background-color: olive;
   margin-bottom: 1rem;
   padding: 1rem;
   text-align: center;
   font-size: 30px;
 }
+
 .card-subtitle a {
   text-decoration: none;
   font-size: 25px;
 }
+
 .card-subtitle {
-  background-color: rebeccapurple;
   margin-bottom: 1rem;
   padding: 1rem;
   text-align: center;
+  font-size: 30px;
 }
+
 .card-info {
-  background-color: thistle;
   padding: 1rem;
   text-align: center;
   font-size: 20px;
 }
+
+/* Media queries */
 
 /* Tablet */
 @media screen and (max-width: 925px) {
@@ -311,23 +311,9 @@ a:active {
   .container {
     flex-direction: column;
   }
-  /* .separator-container {
-    flex-direction: column;
-  } */
-  /* .separator {
-    content: url(../images/images/separator.png);
-    padding: 0;
-    margin: 0;
-    max-height: 100%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
   .contact-me-content-container {
     flex-direction: column;
   }
-
   .title {
     padding: 1rem;
     margin-bottom: 1rem;
@@ -369,18 +355,6 @@ a:active {
   .container {
     flex-direction: column;
   }
-  /* .separator-container {
-    flex-direction: column;
-  } */
-  /* .separator {
-    content: url(../images/images/separator.png);
-    padding: 0;
-    margin: 0;
-    max-height: 30%;
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
   .navbar {
     padding: 0.5rem;
     margin-top: 2rem;
