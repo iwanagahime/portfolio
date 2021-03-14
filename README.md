@@ -6,6 +6,8 @@ Click [here](https://iwanagahime.github.io/portfolio/.) to view project on GitHu
 
 ## Description
 
+We were asked to create our personal professional portfolio that showcases our projects and provides contact details to help potential employers get the idea of who we are and what we do. We used HTML and CSS to build portfolio website from scratch.
+
 ## What did we do?
 
 - Create a portfolio webpage from scratch using HTML and CSS
